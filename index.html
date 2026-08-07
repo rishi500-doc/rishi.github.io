@@ -682,39 +682,47 @@
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card-expertise">
-            <h3><span style="color: #2dd4bf;">AI</span> / ML</h3>
-            <p>Building intelligent clinical decision support and diagnostic engines.</p>
+            <h3><span style="color: #2dd4bf;">AI</span> / ML &amp; XAI</h3>
+            <p>Building intelligent clinical decision support, diagnostic engines, and explainable AI systems.</p>
             <div class="tool-badge-container">
               <span class="tool-badge">Python</span>
-              <span class="tool-badge">scikit-learn</span>
+              <span class="tool-badge">Scikit-learn</span>
+              <span class="tool-badge">XGBoost</span>
               <span class="tool-badge">RAG</span>
               <span class="tool-badge">LLMs</span>
-              <span class="tool-badge">LangChain</span>
-              <span class="tool-badge">Transformers</span>
+              <span class="tool-badge">SHAP</span>
+              <span class="tool-badge">LIME</span>
+              <span class="tool-badge">Cross-Validation</span>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card-expertise">
             <h3>Health IT</h3>
-            <p>End-to-end clinical application design aligned with real hospital workflows.</p>
+            <p>End-to-end clinical application design aligned with real hospital workflows and standards.</p>
             <div class="tool-badge-container">
               <span class="tool-badge">EHR / EMR</span>
               <span class="tool-badge">FHIR</span>
               <span class="tool-badge">HL7</span>
               <span class="tool-badge">DICOM</span>
+              <span class="tool-badge">ICD-10</span>
+              <span class="tool-badge">Clinical Workflow</span>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card-expertise">
             <h3>Data &amp; Analytics</h3>
-            <p>Transforming raw clinical datasets into actionable insights for providers.</p>
+            <p>Transforming raw clinical datasets into actionable insights through analysis and visualization.</p>
             <div class="tool-badge-container">
               <span class="tool-badge">SQL</span>
               <span class="tool-badge">Pandas</span>
+              <span class="tool-badge">Polars</span>
               <span class="tool-badge">NumPy</span>
               <span class="tool-badge">Power BI</span>
+              <span class="tool-badge">Tableau</span>
+              <span class="tool-badge">Matplotlib</span>
+              <span class="tool-badge">Streamlit</span>
             </div>
           </div>
         </div>
@@ -724,20 +732,25 @@
             <p>Scalable backend architectures powering high-availability clinical platforms.</p>
             <div class="tool-badge-container">
               <span class="tool-badge">PostgreSQL</span>
+              <span class="tool-badge">MySQL</span>
               <span class="tool-badge">FastAPI</span>
               <span class="tool-badge">Flask</span>
               <span class="tool-badge">ChromaDB</span>
+              <span class="tool-badge">REST APIs</span>
+              <span class="tool-badge">Git</span>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card-expertise">
-            <h3>Automation</h3>
-            <p>Automated EHR test suites and UI workflow validation at Apollo's MedMantra.</p>
+            <h3>Generative <span style="color: #2dd4bf;">AI</span></h3>
+            <p>Designing retrieval-augmented generation pipelines and prompt-engineered LLM workflows for clinical use.</p>
             <div class="tool-badge-container">
-              <span class="tool-badge">Playwright</span>
-              <span class="tool-badge">TypeScript</span>
-              <span class="tool-badge">Regression</span>
+              <span class="tool-badge">RAG</span>
+              <span class="tool-badge">LLMs</span>
+              <span class="tool-badge">Prompt Engineering</span>
+              <span class="tool-badge">ChromaDB</span>
+              <span class="tool-badge">Vector Databases</span>
             </div>
           </div>
         </div>
@@ -762,6 +775,26 @@
         </div>
       </div>
       <div class="row g-4">
+        <!-- SafePredict-XAI -->
+        <div class="col-lg-4 d-flex">
+          <a href="https://github.com/rishi500-doc" target="_blank" class="w-100"
+            style="text-decoration: none; color: inherit; display: flex;">
+            <div class="card-expertise w-100" style="display: flex; flex-direction: column;">
+              <h3
+                style="font-size:1.6rem; margin-top: 10px; font-family: 'Poppins', sans-serif; font-style: normal; text-transform: none; letter-spacing: -0.5px; font-weight: 600; color: #fff;">
+                SafePredict-XAI</h3>
+              <p style="margin-bottom: 25px;">Explainable <span style="color: #2dd4bf;">ICU</span> Mortality Prediction pipeline using the eICU CRD — 2,520 ICU stays, 434K+ lab records, and 1.63M+ vital-sign observations. Boosted AUROC from 0.721 to 0.927 via a SafePredict reliability framework. Includes a Streamlit dashboard with TreeSHAP explanations.</p>
+              <div class="tool-badge-container" style="margin-top: auto;">
+                <span class="tool-badge">Python</span>
+                <span class="tool-badge">Polars</span>
+                <span class="tool-badge">XGBoost</span>
+                <span class="tool-badge">SHAP</span>
+                <span class="tool-badge">Streamlit</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- MEDIQ -->
         <div class="col-lg-4 d-flex">
           <a href="https://github.com/rishi500-doc/MediQ--RareInsight-CDSS" target="_blank" class="w-100"
             style="text-decoration: none; color: inherit; display: flex;">
@@ -769,37 +802,18 @@
               <h3
                 style="font-size:1.6rem; margin-top: 10px; font-family: 'Poppins', sans-serif; font-style: normal; text-transform: none; letter-spacing: -0.5px; font-weight: 600; color: #fff;">
                 MEDIQ</h3>
-              <p style="margin-bottom: 25px;">Rare Disease Clinical Decision Support System. <span
-                  style="color: #2dd4bf;">AI</span>-driven platform helping clinicians identify rare diseases using RAG
-                and PubMedBERT, with longitudinal patient tracking via a Patient Digital Twin.</p>
+              <p style="margin-bottom: 25px;">Hybrid <span style="color: #2dd4bf;">RAG</span> clinical decision support system combining semantic retrieval, Human Phenotype Ontology mapping, biomedical literature retrieval, and LLM-assisted differential diagnosis. Structured clinical data models with Pydantic.</p>
               <div class="tool-badge-container" style="margin-top: auto;">
-                <span class="tool-badge">FastAPI</span>
+                <span class="tool-badge">Python</span>
                 <span class="tool-badge">RAG</span>
-                <span class="tool-badge">DeepSeek</span>
-                <span class="tool-badge">spaCy</span>
+                <span class="tool-badge">ChromaDB</span>
+                <span class="tool-badge">HPO</span>
+                <span class="tool-badge">LLMs</span>
               </div>
             </div>
           </a>
         </div>
-        <div class="col-lg-4 d-flex">
-          <a href="https://github.com/rishi500-doc/VUS_Tracker" target="_blank" class="w-100"
-            style="text-decoration: none; color: inherit; display: flex;">
-            <div class="card-expertise w-100" style="display: flex; flex-direction: column;">
-              <h3
-                style="font-size:1.6rem; margin-top: 10px; font-family: 'Poppins', sans-serif; font-style: normal; text-transform: none; letter-spacing: -0.5px; font-weight: 600; color: #fff;">
-                VUS Tracker</h3>
-              <p style="margin-bottom: 25px;"><span style="color: #2dd4bf;">AI</span>-Augmented Variant Classification
-                Platform automating ACMG-guideline-based classification of Variants of Uncertain Significance. RAG
-                module with vector databases for clinical evidence synthesis.</p>
-              <div class="tool-badge-container" style="margin-top: auto;">
-                <span class="tool-badge">Flask</span>
-                <span class="tool-badge">PostgreSQL</span>
-                <span class="tool-badge">RAG</span>
-                <span class="tool-badge">ACMG</span>
-              </div>
-            </div>
-          </a>
-        </div>
+        <!-- Pediatric EMR -->
         <div class="col-lg-4 d-flex">
           <a href="https://github.com/rishi500-doc/pediatric-EMR" target="_blank" class="w-100"
             style="text-decoration: none; color: inherit; display: flex;">
@@ -807,8 +821,7 @@
               <h3
                 style="font-size:1.6rem; margin-top: 10px; font-family: 'Poppins', sans-serif; font-style: normal; text-transform: none; letter-spacing: -0.5px; font-weight: 600; color: #fff;">
                 Pediatric EMR</h3>
-              <p style="margin-bottom: 25px;">Specialty Electronic Health Record for pediatricians and nursing staff —
-                enrollment, growth tracking, prescriptions, and outpatient/inpatient clinical workflow screens.</p>
+              <p style="margin-bottom: 25px;">Role-based pediatric EMR supporting patient registration, vaccination tracking, growth monitoring, clinical documentation, and prescription workflows. Includes an <span style="color: #2dd4bf;">AI</span> chatbot for symptom analysis, vital sign assessment, and emergency care recommendations.</p>
               <div class="tool-badge-container" style="margin-top: auto;">
                 <span class="tool-badge">Flask</span>
                 <span class="tool-badge">SQLAlchemy</span>
@@ -845,15 +858,14 @@
               <div>
                 <h3
                   style="font-size:1.4rem; font-family: 'Poppins', sans-serif; font-weight: 600; margin-bottom: 5px; text-transform: none;">
-                  Automation Testing Intern</h3>
+                  Healthcare Data Analyst Intern</h3>
                 <p style="font-size:0.85rem; color: #2dd4bf; margin-bottom:15px; font-weight: 500;">Apollo Hospitals
                   Corporate Office · Chennai · Dec 2025 – Apr 2026</p>
                 <ul
                   style="color: var(--text-dim); font-size:0.85rem; padding-left:18px; line-height:1.8; margin-bottom: 0;">
-                  <li>Automated end-to-end EHR test scripts using Playwright &amp; TypeScript for Apollo's MedMantra
-                    platform.</li>
-                  <li>Executed functional &amp; regression testing; identified defects and validated UI workflows.</li>
-                  <li>Designed reusable test cases with QA and dev teams, improving test coverage and reliability.</li>
+                  <li>Analyzed clinical and operational EHR data across Apollo's MedMantra workflows, identifying data-quality issues and inconsistencies in patient and clinical records.</li>
+                  <li>Performed data validation across OP, IP, PAC, OT, and Dynamic Forms, assessing accuracy, completeness, consistency, and business-rule compliance across 120+ scenarios.</li>
+                  <li>Analyzed data-quality and workflow defect patterns, collaborating with QA and development teams to document findings and improve healthcare data reliability.</li>
                 </ul>
               </div>
 
